@@ -1,0 +1,66 @@
+<html lang="es">
+<head>
+	<title>Mi Web</title>
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<style>
+		body {
+			margin: 0;
+		}
+		p {
+
+
+		}
+		div{
+			font-family: arial !important;
+		}
+		.title {
+			color:#333;
+			text-align:center;
+			font-size: 40px;
+			font-weight:bold;
+			text-transform:capitalize;
+		}
+		.footer {
+			background-color: black;
+			color: white;
+			font-family: fantasy;
+			padding: 10px;
+		}
+		#mainTitle {
+			font-size: 69px;
+		}
+
+		.blueTitles {
+			border-bottom: 1px solid black;
+			color:red;
+		}
+		.textContent {
+			padding: 10px;
+		}
+		.mainContent {
+			width: 650px;
+			margin: 0 auto;
+		}
+	</style>
+	<script>
+		$(function(){
+			$("#secondTitle").fadeOut('slow').fadeIn();
+		});
+	</script>
+</head>
+<body>
+	<div class="mainContent">
+		<div class="title blueTitles" id="mainTitle">titulo</div>
+		<div class="textContent">
+			 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin feugiat velit semper orci ultricies sodales. Cras placerat purus a nisl aliquet aliquet. Curabitur urna metus, rutrum ut molestie eget, sodales eu ligula. Vivamus leo mauris, aliquet ac hendrerit vel, sagittis vitae mauris. Praesent nisi dolor, condimentum eu rutrum consectetur, molestie ut dui. Curabitur viverra lacus et nisi consequat fermentum. Donec vestibulum mauris non ligula elementum fermentum.</p>
+
+			<p>Proin purus urna, consequat id malesuada in, fringilla ut metus. Etiam egestas ultrices nibh at pharetra. Donec eleifend pretium fringilla. Aliquam ullamcorper mi vel libero gravida pretium. Pellentesque imperdiet posuere erat, ut rutrum turpis hendrerit vitae. Vivamus volutpat libero non orci malesuada porta. Sed velit lectus, sodales ut vestibulum malesuada, facilisis quis velit.</p>
+
+				<div class="title" id="secondTitle">segon titola</div>
+
+			<p>Nulla augue magna, tempus ac tincidunt vitae, dignissim non orci. Nullam velit nulla, dignissim et luctus ut, vehicula sed nisl. Aenean neque sapien, mollis vitae molestie et, euismod convallis leo. Vivamus tempor rutrum dolor sed egestas. Sed ornare, tellus ac vulputate semper, massa lectus cursus justo, in faucibus felis libero quis eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.<br/>Nam vestibulum iaculis pretium. Suspendisse mauris diam, tempor ut ultricies nec, consequat quis metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin consectetur elementum sem, ut sollicitudin purus commodo a. Ut porta porta ullamcorper. Aenean quis lectus sem. Praesent lacinia interdum facilisis. Curabitur ac justo eu odio consectetur tincidunt id sed erat. Phasellus sodales nisi sed leo semper scelerisque.</p>
+		</div>
+		<div class="footer"> distrction </div>
+	</div>
+</body>
+</html>
